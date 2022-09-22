@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Lobster&family=Montserrat:wght@300;400;500&display=swap');
+/* font-family: 'Lobster', cursive;
+font-family: 'Lato', sans-serif; 
+font-family: 'Montserrat', sans-serif;
+*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-image: url(./assets/background-pattern_1.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    position: fixed;
+    z-index: 10;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* en attendant d'ajouter javascript pour modifier la couleur de la navbar quand on scroll: */
+    background-color: #74A641;
+    height: 3.8em;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo-navbar{
+    height: 4.6em;
+    width: auto;
+    padding: 1em;
+}
+
+#links-navbar{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#links{
+    display: flex;
+    font-size: 1.2em;
+    margin-right: 1.2em;
+    gap: 1.7em;
+}
+
+.transparent{
+    color:rgba(255, 255, 255, 0.5);
+}
+
+.transparent:hover{
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.noel{
+    color: red;
+}
+
+.accueil{
+    color: white;
+}
+
+#icons{
+    margin-right: 1.5em;
+}
+
+.icon{
+    height: fit-content;
+    width: 1.9em;
+}
+
+#icon-basket{
+    margin-right: 0.7em;
+}
+
+header img {
+    position: relative;
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+    filter: contrast(90%) brightness(90%); }
+
+#header{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-h1{
+    margin-bottom: 0;
+    font-size: 9.3em;
+    font-weight: 300;
+}
+
+#header-p{
+    font-size: 2.4em;
+    font-weight: 300;
+    margin-bottom: 4em;
+    margin-top: 0;
+}
+
+#header-button{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    border: none;
+    background-color: #74A641;
+    padding: 1.2em 2em;
+}
+
+#informations-noel{
+    margin: 7em
+}
+
+#informations-noel h2{
+    font-family: 'Lobster', sans-serif;
+    color: #D01518;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: 1.3em;
+}
+
+#informations-blocks{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+
+}
+
+#informations-blocks h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+#informations-blocks{
+    font-size: 1em;
+}
