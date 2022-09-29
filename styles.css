@@ -104,6 +104,7 @@ header img {
     margin-bottom: 0;
     font-size: 9.3em;
     font-weight: 300;
+    text-align: center;
 }
 
 #header-p{
@@ -111,6 +112,7 @@ header img {
     font-weight: 300;
     margin-bottom: 4em;
     margin-top: 0;
+    text-align: center;
 }
 
 #header-button{
@@ -140,7 +142,12 @@ header img {
     display: flex;
     flex-direction: row;
     gap: 10em;
+    line-height: 1.5em;
+}
 
+#informations-blocks img{
+    width: 25em; 
+    height: auto;
 }
 
 #informations-blocks h3{
@@ -151,4 +158,117 @@ header img {
 
 #informations-blocks{
     font-size: 1em;
+}
+
+.mail{
+    color: #007bff;
+}
+
+.mail:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.question{
+    color: #7AA949;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-left: 1em;
+}
+
+#about{
+    margin-top: 15em;;
+    display: flex;
+    gap: 6em;
+}
+
+#about-right, #about-left{
+    display: inline-block;
+    width: 100%;
+}
+
+#about-image{
+    object-fit: cover;
+    max-height: 21.25em ;
+    width: 100%;
+}
+
+#about h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: #707579;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about-bar{
+    background-color: #d6d6d6;
+    height: 0.3em;
+    border-radius: 1em;
+
+}
+
+#about p{
+    color: #707579;
+    font-family: 'Lato', sans-serif; 
+    font-size: 1.1em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+#about a{
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    border: 1px #74A641 solid;
+    color: #74A641;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    transition: .25s ease-in-out;
+}   
+
+#about a:hover{
+    background-color: #74A641;
+    color: white;
+    cursor: pointer;
+}
+
+#panier-semaine-jumbotron{
+    background-image: url(./assets/image_week_basket.jpg);
+    height: 100%;
+    position: relative;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+    padding: 4em 2em;
+}
+
+#panier-semaine h3{
+    font-family: 'Lobster', sans-serif;
+    color: #b0cc3a;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+#panier-semaine p{
+    color: white;
+    margin: 0 10em;
+    font-size: 1.2em;
+}
+
+#panier-semaine button{
+    margin: 0 10em;
+    font-size: 0.8em;
 }
