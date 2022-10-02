@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Lobster&family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* font-family: 'Lobster', cursive;
 font-family: 'Lato', sans-serif; 
 font-family: 'Montserrat', sans-serif;
+font-family: 'Lobster Two', cursive;
 */
 
 
@@ -113,6 +115,10 @@ header img {
     margin-bottom: 4em;
     margin-top: 0;
     text-align: center;
+}
+
+.header-hover:hover{
+    color: #b0cc3a;
 }
 
 #header-button{
@@ -243,7 +249,6 @@ header img {
 #panier-semaine-jumbotron{
     background-image: url(./assets/image_week_basket.jpg);
     height: 100%;
-    position: relative;
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -251,24 +256,68 @@ header img {
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: color;
     padding: 4em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #panier-semaine h3{
     font-family: 'Lobster', sans-serif;
-    color: #b0cc3a;
-    display: flex;
-    justify-content: center;
+    color: #b0cc3a; 
     font-size: 3em;
     font-weight: 300;
+    margin: 0 0 1.2em 0;
 }
 
-#panier-semaine p{
+#panier-contenu{
     color: white;
-    margin: 0 10em;
+    margin-left: 16.5em;
+    margin-bottom: 2em;
     font-size: 1.2em;
+    text-align: left;
+    width: 100%;
 }
 
 #panier-semaine button{
     margin: 0 10em;
     font-size: 0.8em;
+}
+
+#recette{
+    border: 1px white solid;
+    background-color: transparent;
+    padding: 0.5em 1em;
+    align-self: flex-start;
+    margin-left: 10em;
+
+}
+
+#recette:hover{    
+    color: #74A641;
+    border: 1px #74A641 solid;
+}
+
+#panier-prix{
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    color: red;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+#ajouter-panier{
+    background-color: #7AA949;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    padding: 1em 2em;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ajouter-panier:hover{
+    background-color: red;
 }
